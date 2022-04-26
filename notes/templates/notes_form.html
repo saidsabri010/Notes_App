@@ -1,0 +1,8 @@
+{% extends 'base.html' %} {% block head %} {% endblock %} {% block content %}
+<form class="form-group" action="" method="POST">
+  {% csrf_token %} {{form}}
+  <button type="submit" class="btn btn-primary my-5">Submit</button>
+</form>
+{% if form.errors %}
+<div class="alert alert-danger my-5">{{form.errors.title.as_text}}</div>
+{% endif %} {% endblock %}
