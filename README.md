@@ -9,3 +9,14 @@
 #### the project contains 2 apps, the first one is "home" handls the registration system, the onther one is "notes" handles the operations with the notes.
 #### the database being used in this project is "Sqlite"
 #### frontend : CSS & Bootstrap
+
+
+### Important commands : 
+To run the server :
+```php
+python manage.py runserver
+```
+to run Python shell
+```php
+python manage.py shell
+```
